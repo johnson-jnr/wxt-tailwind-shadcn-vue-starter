@@ -1,16 +1,10 @@
 import { defineConfig } from 'wxt';
 import tailwindcss from '@tailwindcss/vite';
-import path from 'node:path';
 
-// See https://wxt.dev/api/config.html
 export default defineConfig({
+    srcDir: 'src',
     modules: ['@wxt-dev/module-vue'],
     vite: () => ({
-        plugins: [tailwindcss()],
-        resolve: {
-            alias: {
-                '@': path.resolve(__dirname, '.'),
-            }
-        }
+        plugins: [tailwindcss()]
     })
 });
