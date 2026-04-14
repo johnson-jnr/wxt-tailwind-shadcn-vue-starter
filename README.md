@@ -6,27 +6,25 @@ A WXT starter template preconfigured with Vue 3, Tailwind CSS, and Shadcn-Vue.
 
 ## Setup
 
-# Install dependencies
+### Install dependencies
 
 ```bash
 pnpm install
 ```
 
-## Development
-
-### Chrome
+### Start development (Chrome)
 
 ```bash
 pnpm dev
 ```
 
-### Firefox
+### Start development (Firefox)
 
 ```bash
 pnpm dev:firefox
 ```
 
-WXT will open a browser window with the extension loaded automatically.
+WXT will open a browser window automatically with the extension loaded.
 
 ## Build for Production
 
@@ -43,6 +41,19 @@ pnpm build:firefox
 ```
 
 Output is in `.output/`.
+
+## Load Unpacked (manual)
+
+If you want to load the extension manually:
+
+**Chrome**
+1. Go to `chrome://extensions`
+2. Enable **Developer mode**
+3. Click **Load unpacked** → select `.output/chrome-mv3`
+
+**Firefox**
+1. Go to `about:debugging#/runtime/this-firefox`
+2. Click **Load Temporary Add-on** → select any file inside `.output/firefox-mv2`
 
 ## Other Scripts
 
