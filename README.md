@@ -64,11 +64,6 @@ pnpm compile   # Type-check without emitting
 pnpm format    # Format code with Prettier
 ```
 
-## Notes
-
-- Source code lives in `src/`.
-- The popup entrypoint is `src/entrypoints/popup/`.
-
 ## Stack
 
 - [WXT](https://wxt.dev) — browser extension framework
