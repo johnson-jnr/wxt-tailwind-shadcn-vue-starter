@@ -1,6 +1,6 @@
 # WXT Tailwind Shadcn-Vue Starter
 
-![Screenshot](public/screenshot.png)
+<img src="public/screenshot.png" width="500" />
 
 A WXT starter template preconfigured with Vue 3, Tailwind CSS, and Shadcn-Vue.
 
