@@ -12,7 +12,7 @@
         "zip": "wxt zip",
         "zip:firefox": "wxt zip -b firefox",
         "compile": "vue-tsc --noEmit",
-        "format": "prettier --ignore-path .gitignore --write .",
+        "format": "prettier --ignore-path .prettierignore --ignore-path .gitignore --write .",
         "postinstall": "wxt prepare"
     },
     "dependencies": {
