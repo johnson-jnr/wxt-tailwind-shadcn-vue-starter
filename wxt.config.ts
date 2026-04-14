@@ -5,7 +5,7 @@ export default defineConfig({
     srcDir: 'src',
     manifest: {
         name: 'WXT Starter Template',
-        description: 'A simple WXT starter template preconfigued with Vue, Tailwind and Shadcn-Vue'
+        description: 'A simple WXT starter template preconfigured with Vue, Tailwind and Shadcn-Vue'
     },
     modules: ['@wxt-dev/module-vue'],
     vite: () => ({
