@@ -47,11 +47,13 @@ Output is in `.output/`.
 If you want to load the extension manually:
 
 **Chrome**
+
 1. Go to `chrome://extensions`
 2. Enable **Developer mode**
 3. Click **Load unpacked** → select `.output/chrome-mv3`
 
 **Firefox**
+
 1. Go to `about:debugging#/runtime/this-firefox`
 2. Click **Load Temporary Add-on** → select any file inside `.output/firefox-mv2`
 
